@@ -1,0 +1,84 @@
+body {
+  background: linear-gradient(to bottom, #283048, #859398);
+  background-size: cover; 
+  background-position: center;
+  color: #ffffff; 
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 90px;
+}
+
+.btn-yellow {
+  text-decoration: none;
+  background-color: #D0BF74;
+  color: #283048;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.btn-yellow:hover {
+  background-color: #ffffff;
+  color: #283048;
+}
+
+.card {
+  background-color: #283048;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 2px solid #4a4a4a;
+  width: 900px;
+  margin: 30px auto;
+  text-align: center;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+}
+
+.card h2 {
+  color: #D0BF74;
+  margin-bottom: 10px;
+}
+
+.circle-image {
+  border-radius: 50%;
+  width: 150px; 
+  height: 150px;
+  object-fit: cover;
+  margin: 10px auto;
+  border: 3px solid #D0BF74;
+}
+
+
+.contact-list {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.contact-list li {
+  display: inline-block;
+}
+
+.contact-list a {
+  text-decoration: none;
+}
+
+.contact-list a i {
+  font-size: 50px;
+  margin: 0 10px;
+  color: #D0BF74;
+
+}
+.contact-list a i:hover {
+  color: white;
+}
+
+.brand-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.brand-img img {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
